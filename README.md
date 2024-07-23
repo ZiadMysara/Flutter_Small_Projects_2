@@ -1,3 +1,3 @@
 # Flutter_Small_Projects_2
 
-this is some Flutter Project that i do when i am learing Flutter
+This is some Flutter Project that i do when i am learing Flutter
