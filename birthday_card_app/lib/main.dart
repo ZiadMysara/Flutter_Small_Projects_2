@@ -21,6 +21,7 @@ class BirthdayCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFD1BBCE),
       appBar: AppBar(
         //icon
         leading: const Icon(Icons.menu),
@@ -29,7 +30,7 @@ class BirthdayCardApp extends StatelessWidget {
         title: const Text('Birthday Card App'),
         centerTitle: true,
       ),
-      body: const Image(image: AssetImage('assets/img/image.png')),
+      body: const Center(child: Image(image: AssetImage('assets/img/image.png'))),
     );
   }
 }
