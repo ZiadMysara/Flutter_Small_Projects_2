@@ -30,7 +30,8 @@ class BirthdayCardApp extends StatelessWidget {
         title: const Text('Birthday Card App'),
         centerTitle: true,
       ),
-      body: const Center(child: Image(image: AssetImage('assets/img/image.png'))),
+      body:
+          const Center(child: Image(image: AssetImage('assets/img/image.png'))),
     );
   }
 }
