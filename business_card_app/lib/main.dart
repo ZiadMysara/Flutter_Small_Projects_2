@@ -31,6 +31,7 @@ class BusinessCardScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Spacer(flex: 1),
             const CircleAvatar(
               backgroundColor: Colors.white,
               radius: 71,
@@ -51,8 +52,16 @@ class BusinessCardScreen extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontSize: 11),
             ),
+            const Divider(
+              thickness: 1,
+              color: Colors.white60,
+              indent: 40,
+              endIndent: 40,
+              height: 13,
+            )
+            ,
             Padding(
-              padding: const EdgeInsets.all(13.0),
+              padding: const EdgeInsets.only(left:13.0, right: 13, bottom: 13),
               child: Container(
                 height: 50,
                 decoration: const BoxDecoration(
@@ -72,6 +81,7 @@ class BusinessCardScreen extends StatelessWidget {
                 ),
               ),
             ),
+            
             const Card(
               margin: EdgeInsets.all(13),
               color: Colors.white,
@@ -84,7 +94,8 @@ class BusinessCardScreen extends StatelessWidget {
                 ),
                 title: Text("ScholarTech@gmail.com"),
               ),
-            )
+            ),
+            const Spacer(flex: 1),
           ],
         ),
       ),
